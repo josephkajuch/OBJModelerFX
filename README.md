@@ -1,7 +1,7 @@
 # OBJModelerFX
 Basic OBJ File Viewer Using JavaFX
 
-This program can parse the basic components of an OBJ File such as the Vertices (as well as normal and texture vertices) and display them in a 3D space. The 3D object can be rotated in space once loaded, either through mouse interaction, or with inputting specific pitch, roll and yaw values in the control window and pressing the W key, allowing the rotation to be continuously applied to the object, and the S key to stop rotation.
+This program can parse the basic components of an OBJ File such as the vertices and facets (as well as normal and texture vertices) and display them in a 3D space. The 3D object can be rotated in space once loaded, either through mouse interaction, or with inputting specific pitch, roll and yaw values in the control window and pressing the W key, allowing the rotation to be continuously applied to the object, and the S key to stop rotation.
 
 Back Face Removal is implemented in the OBJModel class for performance enhancement, but can be removed for when trying to view models that aren't solid.
 
